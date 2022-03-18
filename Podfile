@@ -9,6 +9,7 @@ target 'instagram' do
 pod 'AlamofireImage'
 pod 'Alamofire'
 pod 'Parse'
+pod 'MessageInputBar'
  end
 
   # Pods for instagram
@@ -19,6 +20,7 @@ pod 'Parse'
 pod 'AlamofireImage'
 pod 'Alamofire'
 pod 'Parse'
+
   end
 
   target 'instagramUITests' do
@@ -26,6 +28,7 @@ pod 'Parse'
 pod 'AlamofireImage'
 pod 'Alamofire'
 pod 'Parse'
+
   end
 
 #end
