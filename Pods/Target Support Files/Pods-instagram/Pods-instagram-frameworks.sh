@@ -179,12 +179,14 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Alamofire-framework/Alamofire.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/AlamofireImage-framework/AlamofireImage.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Bolts-framework/Bolts.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/MessageInputBar/MessageInputBar.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Parse-framework/Parse.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Alamofire-framework/Alamofire.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/AlamofireImage-framework/AlamofireImage.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Bolts-framework/Bolts.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/MessageInputBar/MessageInputBar.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Parse-framework/Parse.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
